@@ -18,7 +18,9 @@ Project Structure
 
 automation-exercise-playwright/
 │
+
 ├─ AutomationPages/         # Page Object Model files for pages
+
 │   ├─ LoginPage.js
 
 │   ├─ ProductPage.js
@@ -30,6 +32,7 @@ automation-exercise-playwright/
 │
 
 ├─ tests/                   # Test scripts
+
 │   ├─ login.spec.js
 
 │   ├─ product.spec.js
