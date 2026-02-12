@@ -20,20 +20,30 @@ automation-exercise-playwright/
 │
 ├─ AutomationPages/         # Page Object Model files for pages
 │   ├─ LoginPage.js
+
 │   ├─ ProductPage.js
+
 │   ├─ CartPage.js
+
 │   └─ ...  
+
 │
 
 ├─ tests/                   # Test scripts
 │   ├─ login.spec.js
+
 │   ├─ product.spec.js
+
 │   ├─ cart.spec.js
+
 │   └─ ...  
+
 │
 
 ├─ package.json
+
 ├─ playwright.config.js
+
 ├─ .env
 
 
