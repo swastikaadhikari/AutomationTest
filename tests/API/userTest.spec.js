@@ -1,9 +1,9 @@
-import { request } from 'node:http';
+
 import {test,expect} from 'playwright/test';
 
 const BaseURL = process.env.baseURL;
 
-test.describe('USER API Test',()=>{
+test.describe.serial('USER API Test',()=>{
     let userId;
 
     test('GET',async({request})=>{
@@ -34,7 +34,7 @@ test.describe('USER API Test',()=>{
         const responsebody = await response.json();
         console.log(responsebody);
         userId = responsebody.id;
-        console.log(userId);
+        console.log("Created userID:",userId);
 
         expect(response.status()).toBe(201);
         expect(responsebody.name).toBe('Test');

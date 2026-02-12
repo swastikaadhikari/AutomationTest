@@ -1,4 +1,4 @@
-import { request } from 'node:http';
+
 import {test,expect} from 'playwright/test';
 import userCreateData from '../../test_data/userCreate.json'
 const BaseURL = process.env.baseURL;
@@ -21,10 +21,10 @@ let slugname;
                 //data:
                 data:{
                     
-                    "title": "Summer Women clothes",
+                    "title": "HSummer Women clothes",
                     "price": 100,
                     "description": "A description",
-                    "categoryId": 1,
+                    "categoryId": 101,
                     "images": ['https://placehold.co/600x400'],
                 }
             }
@@ -46,7 +46,7 @@ let slugname;
                     "title": "Update Woman clothes",
                     "price": 1000,
                     "description": "Updated A description",
-                    "categoryId": 1,
+                    "categoryId": 101,
                     "images": ['https://placehold.co/600x400'],
                 }
             }

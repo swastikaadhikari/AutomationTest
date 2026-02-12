@@ -28,7 +28,7 @@ test.describe('Registration form',()=>{
 
         //Fill name and email
         await RegisterUser.Fillname('Test');
-        await RegisterUser.Fillemail('ssam@gmail.com');
+        await RegisterUser.Fillemail('asam@gmail.com');
 
         //Click signup button
         await RegisterUser.clickBtn();
