@@ -1,4 +1,5 @@
 Project Overview
+
 This project involves end-to-end automation testing of the Automation Exercise website using Playwright. All test cases listed on the Test case page have been automated successfully. The main objective was to automate all available test cases to validate the functionality, stability and user experience of the website.
 The test cases cover features like user registration, login, product search, cart operations, contact forms, checkout and many more.
 
@@ -7,7 +8,11 @@ Language: Javascript
 Testing Framework: Playwright
 Test Runner: Playwright test
 Assertion library: Playwright built-in expect
+
+
 Project Structure
+
+
 automation-exercise-playwright/
 │
 ├─ AutomationPages/         # Page Object Model files for pages
@@ -40,8 +45,12 @@ Git clone <your-repo-url>
 npm install
 3.	Install playwright browser
 npx playwright install
+
+
 Running test
 Run all tests: npx playwright test –ui
+
+
 Test Cases Covered
 •	Home page:
 -	Verify home page is visible
@@ -72,6 +81,8 @@ Test Cases Covered
 -	Address details
 •	Scroll up and down functionality
 •	Download invoice after purchase order
+
+
 Future Improvements
 -	Integrate CI/CD using github actions
 -	Screenshots or video recording for failed tests
@@ -79,6 +90,8 @@ Future Improvements
 
 Test Results:
 User Registration:
+<img width="940" height="709" alt="image" src="https://github.com/user-attachments/assets/fdb5ca77-8bf5-46d5-b513-d8263b20cb5c" />
+
  
 
 
