@@ -24,21 +24,25 @@ automation-exercise-playwright/
 │   ├─ CartPage.js
 │   └─ ...  
 │
+
 ├─ tests/                   # Test scripts
 │   ├─ login.spec.js
 │   ├─ product.spec.js
 │   ├─ cart.spec.js
 │   └─ ...  
 │
+
 ├─ package.json
 ├─ playwright.config.js
 ├─ .env
 
+
 │   Data
 │   ├─ contact.jpg
+
 └─ README.md
 
- AutomationPages/ – Contains page objects following the Page Object Model (POM) for cleaner code.
+AutomationPages/ – Contains page objects following the Page Object Model (POM) for cleaner code.
  
 tests/ – Contains all test scripts organized by features.
 
